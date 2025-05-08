@@ -1,0 +1,33 @@
+﻿@page
+@model MyApp.Namespace.IndexDModel
+@{
+}
+
+<div class="container">
+    <h1>Desarrolladores</h1>
+    <p>Bienvenido a la página de Desarrolladores.</p>
+    <a asp-page="CreateD" class="btn btn-primary">Crear nuevo desarrolador</a>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>DNI</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var d in Model.desarrollador)
+            {
+                <tr>
+                    <td>@d.IDDESARROLLADOR</td>
+                    <td>@d.NOMBRES</td>
+                    <td>@d.APELLIDOS</td>
+                    <td>@d.DNI</td>
+                    <td>@d.CORREO</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

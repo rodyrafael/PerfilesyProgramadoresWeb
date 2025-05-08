@@ -103,3 +103,4 @@ D:\TRABAJORODY\demoaspcore\obj\Debug\net9.0\refint\demoaspcore.dll
 D:\TRABAJORODY\demoaspcore\obj\Debug\net9.0\demoaspcore.pdb
 D:\TRABAJORODY\demoaspcore\obj\Debug\net9.0\demoaspcore.genruntimeconfig.cache
 D:\TRABAJORODY\demoaspcore\obj\Debug\net9.0\ref\demoaspcore.dll
+D:\TRABAJORODY\demoaspcore\obj\Debug\net9.0\demoaspcore.sourcelink.json

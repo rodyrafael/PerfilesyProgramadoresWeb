@@ -1,0 +1,15 @@
+﻿@page
+@model MyApp.Namespace.CreateDModel
+@{
+}
+
+<div>
+    <h1>Crear desarrolador</h1>
+    <form action="" method="post">
+        <input type="text" asp-for="desarrollador.NOMBRES" class="form-control" placeholder="Nombre"/>
+        <input type="text" asp-for="desarrollador.APELLIDOS" class="form-control" placeholder="Apellidos"/>
+        <input type="text" asp-for="desarrollador.DNI" class="form-control" placeholder="DNI"/>
+        <input type="text" asp-for="desarrollador.CORREO" class="form-control" placeholder="Correo"/>
+        <button type="submit" class="btn btn-primary">Crear</button>
+    </form>
+</div>
